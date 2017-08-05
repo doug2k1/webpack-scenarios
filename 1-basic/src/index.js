@@ -1,3 +1,3 @@
-var pad = require('./pad')
+var functions = require('./functions')
 
-console.log(pad('webpack'))
+functions.cow('Webpack is great!')

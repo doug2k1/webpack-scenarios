@@ -1,3 +1,3 @@
-import pad from './pad'
+import { cow } from './functions'
 
-console.log(pad('webpack'))
+cow('Webpack is great with Babel loader!')
