@@ -1,3 +1,3 @@
-var functions = require('./functions')
+var cow = require('./cow')
 
-functions.cow('Webpack is great!')
+document.querySelector('#box').innerText = cow.say('Webpack is great!')

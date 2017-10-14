@@ -4,15 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "build:watch": "webpack -w",
+    "build:prod": "webpack -p"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cowsay-browser": "1.1.8"
+    "cowsay-browser": "^1.1.8"
   },
   "devDependencies": {
-    "webpack": "3.4.1"
+    "webpack": "^3.7.1"
   }
 }

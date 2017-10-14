@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.16.2",
     "cowsay-browser": "1.1.8"
   },
   "devDependencies": {
