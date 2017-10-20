@@ -1,6 +1,6 @@
-var cowsay = require('cowsay-browser')
+import cowsay  from 'cowsay-browser'
 
-module.exports = {
+export default {
   say: function(str) {
     return cowsay.say({ text: str })
   }
