@@ -1,0 +1,14 @@
+@import 'vars';
+
+body {
+  font: 16px sans-serif;
+  padding: 20px;
+}
+pre {
+  background: url('../img/grass-bg.jpg') no-repeat;
+  color: $cow-color;
+  display: inline-block;
+  font: bold 14px monospace;
+  padding: 30px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
