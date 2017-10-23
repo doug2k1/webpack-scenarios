@@ -1,4 +1,5 @@
-import { cow } from './functions'
-import './styles.css'
+import cow from './cow'
+import './css/main.css'
 
-document.getElementById('box').value = cow('Webpack can load CSS too!')
+const message = 'is awesome'
+document.querySelector('#box').innerText = cow.say(`Webpack with Babel and CSS ${message}!`)

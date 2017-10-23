@@ -5,7 +5,7 @@ module.exports = {
 
   output: {
     filename: 'bundle.js',
-    path: path.resolve('public')
+    path: path.resolve('dist')
   },
 
   module: {
@@ -13,10 +13,15 @@ module.exports = {
       {
         test: /\.js$/,
         exclude: /node_modules/,
-        use: 'babel-loader'
-      },
-      {
+        use: {
+          loader: 'babel-loader',
+          options: {
+            cacheDirectory: true
+          }
+        }
+      }, {
         test: /\.css$/,
+        exclude: /node_modules/,
         use: ['style-loader', 'css-loader']
       }
     ]

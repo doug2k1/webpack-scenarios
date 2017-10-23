@@ -1,3 +1,3 @@
-# Scenario 3
+# Scenario 3 - CSS Loader
 
-Concatenate some JS files, with CSS imports, into one bundle.js.
+Import CSS files in JS and add the styles to the page head (using css-loader and style-loader);
