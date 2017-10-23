@@ -1,3 +1,4 @@
-import { cow } from './functions'
+import cow from './cow'
 
-cow('Webpack is great with Babel loader!')
+const message = 'is great'
+document.querySelector('#box').innerText = cow.say(`Webpack with Babel ${message}!`)
