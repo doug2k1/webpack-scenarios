@@ -1,3 +1,5 @@
-import cow from './cow'
+import cow from "./cow";
 
-document.querySelector('#box').innerText = cow.say('Webpack is great with plugins!')
+document.querySelector("#box").innerText = cow.say(
+  "Webpack is great with plugins!"
+);
